@@ -23,7 +23,7 @@
   ],
   "homepage": "https://b23.tv/vUMYbj",
   "main": "./build/index.js",
-  "license": "MIT",
+  "license": "GUN",
   "scripts": {
     "start": "node .",
     "build": "tsc",
@@ -46,10 +46,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lZiMUl/oaci.git"
+    "url": "git+https://github.com/lZiMUl/Oaci.git"
   },
   "bugs": {
-    "url": "https://github.com/lZiMUl/oaci/issues/",
+    "url": "https://github.com/lZiMUl/Oaci/issues/",
     "email": "AA2908554069@gmail.com"
   },
   "private": false,

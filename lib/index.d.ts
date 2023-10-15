@@ -15,7 +15,7 @@ declare class OpenFrp {
     private readonly password;
     constructor(username: string, password: string);
     get getUserData(): Promise<UserData>;
-    static sign(session: string, authorization: string, cookie: string): Promise<LoginInfo | void>;
+    static Sign(session: string, authorization: string, cookie: string): Promise<LoginInfo | void>;
 }
 export default OpenFrp;
 export { OpenFrp };

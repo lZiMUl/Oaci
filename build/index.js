@@ -53,7 +53,7 @@ class OpenFrp {
             }
         });
     }
-    static async sign(session, authorization, cookie) {
+    static async Sign(session, authorization, cookie) {
         const { data } = await instance({
             url: '/web/frp/api/userSign',
             headers: {
