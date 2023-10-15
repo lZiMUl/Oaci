@@ -39,6 +39,7 @@ class OpenFrp {
 
     public get getUserData(): Promise<UserData> {
         return new Promise(async (callBack: Callback, refuse: Refuse): Promise<void> => {
+
             try {
                 const {data, headers}: axios.AxiosResponse<LoginInfo> = await instance({
                     url: '/web/user/login',
@@ -71,7 +72,7 @@ class OpenFrp {
         })
     }
 
-    public static async sign(session: string, authorization: string, cookie: string): Promise<LoginInfo | void> {
+    public static async Sign(session: string, authorization: string, cookie: string): Promise<LoginInfo | void> {
         const {data}: axios.AxiosResponse<LoginInfo> = await instance({
             url: '/web/frp/api/userSign',
             headers: {

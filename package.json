@@ -1,7 +1,7 @@
 {
   "name": "oaci",
   "description": "An OpenFrp auto-check-in interface package.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": {
     "name": "lZiMUl",
     "email": "AA2908554069@gmail.com",
@@ -27,13 +27,14 @@
   "scripts": {
     "start": "node .",
     "build": "tsc",
-    "dev": "tsc -w"
+    "dev": "tsc -w",
+    "test": "node ./tests/index.js"
   },
   "keywords": [
     "lZiMUl",
     "OpenFrp",
     "Automatic",
-    "Check in"
+    "Check In"
   ],
   "dependencies": {
     "axios": "^1.5.1",
