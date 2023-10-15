@@ -23,7 +23,7 @@
   ],
   "homepage": "https://b23.tv/vUMYbj",
   "main": "./build/index.js",
-  "license": "GUN",
+  "license": "GPL-3.0",
   "scripts": {
     "start": "node .",
     "build": "tsc",
